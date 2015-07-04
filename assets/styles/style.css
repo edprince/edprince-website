@@ -2,7 +2,6 @@ body, html {
   height: 100%;
   width: 100%;
   font-family: 'Raleway', sans-serif;
-  font-weight: 300;
   overflow-x: hidden;
   margin: 0;
   color: #898989;
@@ -10,8 +9,6 @@ body, html {
 
 .nav {
   text-align: center;
-  padding-top: 1em;
-  padding-bttom: 1em;
 }
 
 .nav li {
@@ -22,6 +19,13 @@ body, html {
   padding-right: 1em;
 }
 
+.nav ul {
+  margin-bottom: 0;
+  margin-left: 0;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
 #title {
   //text-shadow: 0px 2px 20px black;
 }
@@ -30,11 +34,11 @@ body, html {
   width: 100%;
   padding-top: 8em;
   background-image: url("http://wikitravel.org/upload/shared//a/a6/Bavarian_Alps_Banner.jpg");
-  font-weight: 400;
+  font-weight: 200;
   height: 350px;
   color: white;
   text-align: center;
-  box-shadow: inset 0px 2px 15px #373737;
+  box-shadow: 0px 2px 5px #DDD;
 }
 
 .wrapper {
@@ -65,6 +69,11 @@ h1 {
 .subheading {
   text-transform: uppercase;
   text-align: center;
+  color: #898989; 
+}
+
+#projects {
+  font-weight: 200;
 }
 #profile {
   padding: 2em;
@@ -86,18 +95,54 @@ h1 {
   left: 0;
   right: 0;
   width: 100%;
-  height: 200px;
+  //height: 200px;
   padding-top: 1em;
-  background-color: #162229;
+  background-color: #2F3034;
   margin-left: 0;
   box-shadow: inset 0px 5px 10px #0D1317;
   color: white;
   text-align: center;
 }
 
-#socialMedia {
+.footer li {
+  list-style-type: none;
+  color: #898989;
+}
+
+.links {
   font-size: 2em;
+}
+
+.links hr {
+  width: 50%;
+  margin: 0 auto;
+  border: solid 1px #3C3C3C;
+}
+
+.links#facebook:hover {
+  color: 
+}
+
+.social-media {
+  font-size: 10em;
   padding-left: 0.3em;
   padding-right: 0.3em;
   margin-top: 1em;
+  color: white;
+}
+
+#facebook:hover {
+  color: #45619D;
+}
+
+#github:hover {
+  color: black;
+}
+#google-plus:hover {
+  color: #DD4B39;
+}
+
+#copyright {
+  text-align: center;
+  color: #898989;
 }
